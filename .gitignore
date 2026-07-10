@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.npm-cache/
+.npmrc
+.DS_Store
+qa/
+*.png
+AGENTS.md
+design-qa.md
