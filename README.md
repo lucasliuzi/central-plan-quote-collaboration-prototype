@@ -17,5 +17,11 @@ npm run build
 
 ## GitHub Pages
 
-推送到 `main` 分支后，GitHub Actions 会自动构建并发布 `dist`。首次发布时，在仓库的 `Settings → Pages → Build and deployment` 中选择 `GitHub Actions`。
+仓库使用 `main/docs` 发布 GitHub Pages。更新原型后执行：
 
+```bash
+npm run build -- --outDir docs
+git add docs
+git commit -m "Update prototype"
+git push
+```
